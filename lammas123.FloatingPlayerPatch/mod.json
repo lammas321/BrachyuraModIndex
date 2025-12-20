@@ -1,0 +1,9 @@
+{
+  "project-url": "https://github.com/lammas321/CrabGameFloatingPlayerPatch",
+  "version": "v1.2.0",
+  "assets": {
+    "{project-url}/releases/download/{version}/FloatingPlayerPatch.dll": {
+      "directory": "plugins"
+    }
+  }
+}
