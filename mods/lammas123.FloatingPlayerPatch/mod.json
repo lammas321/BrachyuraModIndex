@@ -2,12 +2,12 @@
   "description": "Fixes bad bug",
   "project-url": "https://github.com/lammas321/CrabGameFloatingPlayerPatch",
   "version": "v1.2.0",
+  "categories": ["Host Only", "Fixes"],
   "assets": [
     {
       "asset-url": "{project-url}/releases/download/{version}/FloatingPlayerPatch.dll",
       "directory": "BepInEx/plugins"
     }
   ],
-  "dependencies": [],
-  "categories": ["Host Only", "Fixes"]
+  "dependencies": []
 }
