@@ -22,4 +22,5 @@ jobs:
           GITLAB_REPO_URL: ${{ secrets.GITLAB_REPO_URL }}
         run: |
           git remote add gitlab https://${GITLAB_USERNAME}:${GITLAB_TOKEN}@${GITLAB_REPO_URL}
-          git push --mirror gitlab
+          git push gitlab --all
+          git push gitlab --tags
